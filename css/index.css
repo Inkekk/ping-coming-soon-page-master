@@ -90,13 +90,12 @@ button {
     gap: 15px;
 }
 
-.social-medias li {
+.social-medias a {
     border: 1px solid hsl(223, 100%, 88%);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: hsl(223, 87%, 63%); */
 }
 
 .social-media-logo {
@@ -147,7 +146,7 @@ input::placeholder {
     transition: 0.3s;
 }
 
-li:hover {
+a:hover {
     background-color: hsl(223, 87%, 63%);
     transition: 0.3s;
 }
