@@ -11,6 +11,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding-top: 5rem;
 }
 
 .espacamento {
@@ -186,6 +187,11 @@ button:hover {
 
     .rodape {
         padding: 4rem;
+    }
+
+    h2 {
+        font-size: 45px;
+        font-weight: 300;
     }
 
 }
