@@ -1,0 +1,192 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    max-width: 375px;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.espacamento {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+.cabecalho img {
+    width: 75%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: center;
+}
+
+h2 {
+    color: hsl(0, 0%, 59%);
+    font-size: 24px;
+
+}
+
+h2 span {
+    font-weight: 700;
+    color: #000;
+}
+
+.cabecalho p {
+    font-size: 16px;
+}
+
+fieldset {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    max-width: 311.89px;
+    width: 90%;
+    border: 1px solid hsl(223, 100%, 88%);
+    padding: 13px 15px;
+    border-radius: 25px;
+}
+
+button {
+    padding: 13px 0;
+    border-radius: 25px;
+    border-style: none;
+    background-color: hsl(223, 87%, 63%);
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.illus-img {
+    width: 90%;
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+}
+
+.social-medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-medias li {
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: hsl(223, 87%, 63%); */
+}
+
+.social-media-logo {
+    padding: 5px;
+    fill: hsl(223, 87%, 63%);
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.rodape {
+    padding-top: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.rodape p {
+    font-size: 12px;
+    color: hsl(0, 0%, 59%);
+}
+
+.mensagem-erro {
+    color: hsl(354, 100%, 66%);
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 6px;
+    display: none;
+}
+
+.ativo {
+    display: block;
+}
+
+.error input {
+    border-color: hsl(354, 100%, 66%);
+}
+
+input::placeholder {
+    font-family: 'Libre Franklin', sans-serif;
+    color: hsl(0, 0%, 59%);
+}
+
+.social-media-logo:hover {
+    fill: #fff;
+    transition: 0.3s;
+}
+
+li:hover {
+    background-color: hsl(223, 87%, 63%);
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: hsl(223, 87%, 75%);
+    cursor: pointer;
+    transition: .3s;
+}
+
+@media (min-width: 1024px) {
+    body {
+        max-width: none;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    .mensagem-erro {
+        padding-right: 350px;
+    }
+
+    fieldset {
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
+    }
+
+    button {
+        width: 182.39px;
+    }
+
+    .illus-img {
+        width: 50%;
+    }
+
+    .rodape {
+        padding: 4rem;
+    }
+
+}
